@@ -1,4 +1,6 @@
-- hosts: all
-  become: yes
+---
+- name: Run Hello World Role
+  hosts: localhost
+  gather_facts: false
   roles:
     - hello-world

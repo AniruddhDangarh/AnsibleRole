@@ -1,1 +1,5 @@
-
+---
+- name: Create a Hello World file
+  copy:
+    content: "Hello, World!\n"
+    dest: /tmp/hello.txt
